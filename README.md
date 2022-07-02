@@ -1,3 +1,5 @@
+**WARNING: As of MHD version 3.0, tons of things have changed. Everything in this repository is only valid for versions below 3.0! I'm going to have to find time to go through everything and update for version 3.0. There is a seperate .bin needed for the MDH+ features and their official XDF has changed as well.**
+
 # BMW-N54-Tuning-Resources
 Work-in-progress XDF definitions file for N54 DMEs, and possibly more resources for backyard tuners in the future.
 
