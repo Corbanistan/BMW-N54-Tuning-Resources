@@ -1,6 +1,6 @@
 **WARNING: As of MHD version 3.0+, tons of things have changed (along with a new updated official XDF). I'm still in the process of going through all the changes however I've finished porting most of my added tables from the legacy XDF to the new one for I8A0S. That XDF is up but I'm going to have to find more time to go through everything and continue updates and polish for version 3.0+.**
 
-# BMW-N54-Tuning-Resources
+# BMW N54 Tuning Resources
 Work-in-progress XDF definitions file for N54 DMEs, and possibly more resources for backyard tuners in the future.
 
 Currently I only have an I8A0S MSD80 XDF file available to share due to the fact that my car has this version of DME, and I don't have the need to replace it anytime soon. In the future, I hope to have XDF files available to all other DME revisions hopefully with the help of the community. So until then, tables have been posted all over the forums for the MSD81.
