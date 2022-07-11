@@ -1,4 +1,4 @@
-<!-- Written 07/06/2022 00:27:49 -->
+<!-- Written 07/10/2022 23:14:31 -->
 <XDFFORMAT version="1.70">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -2106,11 +2106,11 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Speed Limiter (Master)</title>
-    <description>Set max speed for vehicle</description>
+    <description>Set max speed for vehicle&#013;&#010;(c_vs_max_0_dft)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
-      <units>MAX MPH</units>
+      <units>Max MPH</units>
       <indexcount>1</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2122,7 +2122,6 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x42E00" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>MAX MPH</units>
       <indexcount>1</indexcount>
       <decimalpl>0</decimalpl>
       <embedinfo type="1" />
@@ -2146,6 +2145,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Speed Limiter</title>
+    <description>Vehicle speed limitation threshold&#013;&#010;(c_vs_max_1)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -2586,7 +2586,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Limit Offset</title>
-    <description>Torque limit nanny</description>
+    <description>Part of function for indicated torque during PU&#013;&#010;(c_tqi_ofs_st_mon)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -2972,7 +2972,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Monitor Max Difference</title>
-    <description>Torque limit monitor nanny</description>
+    <description>Threshold for diagnosis of engine torque overflow&#013;&#010;(ip_tqi_dif_max_mon)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -3015,7 +3015,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Monitor Ceiling </title>
-    <description>Torque limit monitor nanny</description>
+    <description>Torque limit monitor nanny&#013;&#010;Maximum reference indicated engine torque&#013;&#010;(ip_tqi_ref_max_mon)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -7129,6 +7129,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Limit Offset A</title>
+    <description>Torque after torque intervention to reset torque safety limiter&#013;&#010;(ip_tqi_dif_lim)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -9940,7 +9941,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Load Limit Factor</title>
-    <description>Set load limits based on pressure</description>
+    <description>Set load limits based on pressure&#013;&#010;(KL_FUPSRF_ATL)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F262" mmedelementsizebits="16" mmedcolcount="12" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10022,7 +10023,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Boost Limit Multiplier</title>
-    <description>Global limit on how much boost the DME is allowed to make&#013;&#010;2.6 is just above stock MAP sensor limit&#013;&#010;3.0 or higher for upgraded MAP sensor</description>
+    <description>Global limit on how much boost the DME is allowed to make&#013;&#010;2.6 is just above stock MAP sensor limit&#013;&#010;3.0 or higher for upgraded MAP sensor&#013;&#010;(KL_FPLDSTOPF)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F302" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10233,7 +10234,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Load Target Limit Factor (Charge Air Temp)</title>
-    <description>Adjust max target load based on charge air temps</description>
+    <description>Adjust max target load based on charge air temps&#013;&#010;(KF_FRFMXTALD)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F3AE" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10365,6 +10366,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Load Limit Factor (Knock)</title>
+    <description>Correction factor for knock control&#013;&#010;(KF_FRFMXKR)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x03" mmedaddress="0x5F416" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -10381,7 +10383,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F406" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>Raw</units>
+      <units>RPM</units>
       <indexcount>8</indexcount>
       <decimalpl>0</decimalpl>
       <embedinfo type="1" />
@@ -10406,6 +10408,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Boost Limit Multiplier Ceiling</title>
+    <description>(K_FPLDPUMP)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -12891,6 +12894,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Eff Lower Limit</title>
+    <description>Lowest factor the DME wants to see in the Torque Eff Divisor (Fuel) table</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
@@ -12931,7 +12935,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Overboost Disable</title>
-    <description>Stock      - 1B580C1C&#010;Disabled - 03030303&#010;k_nkwlek_mn_k_nkwlek_mx</description>
+    <description>Stock      - 1B580C1C&#010;Disabled - 03030303&#010;(k_nkwlek_mn) (k_nkwlek_mx)</description>
     <CATEGORYMEM index="0" category="15" />
     <CATEGORYMEM index="1" category="20" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -13012,6 +13016,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Max Intervention Mode</title>
+    <description>Torque limitation nanny&#013;&#010;(KL_MDKMAXUL)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14394,6 +14399,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>MAF Max (Nanny)</title>
+    <description>Maximum air mass flow&#013;&#010;(KL_MSLAM_MX)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C42E" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14516,6 +14522,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Max Mass Flow Mon (Bank 1)</title>
+    <description>Upper diagnosis threshold mass flow (Bank 1)&#013;&#010;(KF_DIAG_MSO)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C4BE" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14638,6 +14645,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Max Mass Flow Mon (Bank 2)</title>
+    <description>Upper diagnosis threshold mass flow (Bank 2)&#013;&#010;(KF_DIAG_MSO2)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6C526" mmedelementsizebits="16" mmedcolcount="4" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14757,6 +14765,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Load to Torque Limit</title>
+    <description>Maximum internal torque at lambda = 1&#013;&#010;(KF_MDIOP_1)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -14838,7 +14847,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Max (Index Array)</title>
-    <description>Maximum air load the engine is capable of reaching when off-boost&#013;&#010;//Set max possible percent of requested torque&#013;&#010;//Limits Torque Request % tables</description>
+    <description>Maximum air load the engine is capable of reaching when off-boost&#013;&#010;//Set max possible percent of requested torque&#013;&#010;//Limits Torque Request % tables&#013;&#010;(KL_LAMX)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6DB22" mmedelementsizebits="16" mmedcolcount="18" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -14921,6 +14930,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Limiter 3 (Unk Limits)</title>
+    <description>Ratio of ideal to real air effort&#013;&#010;(KL_LAMX_FV)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x6DB6E" mmedelementsizebits="16" mmedcolcount="18" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -15284,6 +15294,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Requested Torque Limit (Driver)</title>
+    <description>Max output torque limit&#013;&#010;(KL_MDMAX)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15496,7 +15507,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Reduction Factor (RPM)</title>
-    <description>(kl_kuehln)</description>
+    <description>Torque reduction safety factor based on RPM&#013;&#010;(kl_kuehln)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -15884,7 +15895,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Reduction Factor (Temp)</title>
-    <description>(kf_kuehlpimx)</description>
+    <description>Map of power reduction via ECT and oil temp&#013;&#010;(kf_kuehlpimx)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -16161,6 +16172,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Torque Limit Cap</title>
+    <description>Max torque limit&#013;&#010;(K_MDK_EXT_MINUS)</description>
     <CATEGORYMEM index="0" category="4" />
     <CATEGORYMEM index="1" category="23" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -19269,6 +19281,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Torque Loss (Strat)</title>
+    <description>Torque loss from engine drag&#013;&#010;(KF_MDREIB_BA3)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7A05E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -19405,6 +19418,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x0">
     <title>Torque Loss (Homo)</title>
+    <description>Torque loss from engine drag&#013;&#010;(KF_MDREIB_BA3)</description>
     <CATEGORYMEM index="0" category="4" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7A17E" mmedelementsizebits="16" mmedcolcount="10" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -28233,7 +28247,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x780D" flags="0x0">
-    <title>Max Cat Diagnosis Vehicle Speed</title>
+    <title>Max Cat Diagnosis Engine Speed</title>
     <description>Engine speed threshold to deactivate catalyst diagnosis to save ECU performance.&#013;&#010;Set to 0 to disable cat diagnosis.&#013;&#010;(C_N_32_CAT_DIAG_DEAC)</description>
     <CATEGORYMEM index="0" category="168" />
     <XDFAXIS id="x" uniqueid="0x0">
