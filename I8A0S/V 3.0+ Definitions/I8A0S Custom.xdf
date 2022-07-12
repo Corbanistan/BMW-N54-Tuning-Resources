@@ -1,4 +1,4 @@
-<!-- Written 07/10/2022 23:14:31 -->
+<!-- Written 07/12/2022 00:11:46 -->
 <XDFFORMAT version="1.70">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -11086,7 +11086,7 @@
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F71A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>RPM</units>
+      <units>WGDC %</units>
       <indexcount>8</indexcount>
       <embedinfo type="1" />
       <datatype>0</datatype>
@@ -11098,7 +11098,7 @@
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x5F70A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>WGDC %</units>
+      <units>RPM</units>
       <indexcount>8</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="1" />
@@ -12209,7 +12209,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Boost Pressure Target Modifier (Dynamic Operation)</title>
-    <description>KF_PSPLD_DYN&#010;&#010;X Axis: RPM&#010;Y Axis: Boost Target (abs) / Atm Pres.&#010;Z Data: &quot;Boost Target&quot; / X</description>
+    <description>X Axis: RPM&#013;&#010;Y Axis: Boost Target (abs) / Atm Pres.&#013;&#010;Z Data: &quot;Boost Target&quot; / X&#013;&#010;(KF_PSPLD_DYN)</description>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x61742" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -12336,7 +12336,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Boost Pressure Target Modifier (Normal Operation)</title>
-    <description>KF_PSPLD_ECO&#010;&#010;X Axis: RPM&#010;Y Axis: Boost Target (abs) / Atm Pres.&#010;Z Data: &quot;Boost Target&quot; / X</description>
+    <description>X Axis: RPM&#013;&#010;Y Axis: Boost Target (abs) / Atm Pres.&#013;&#010;Z Data: &quot;Boost Target&quot; / X&#013;&#010;(KF_PSPLD_ECO)</description>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x617A6" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -18318,6 +18318,7 @@
   </XDFTABLE>
   <XDFTABLE uniqueid="0x0" flags="0x30">
     <title>Timing (Unk Throttled)</title>
+    <description>Basic ignition angle throttled&#013;&#010;(KF_ZW_GD)</description>
     <CATEGORYMEM index="0" category="3" />
     <XDFAXIS id="x" uniqueid="0x0">
       <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x76B2A" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
@@ -26779,7 +26780,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7E8D4" mmedelementsizebits="16" mmedrowcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedaddress="0x7E8D4" mmedelementsizebits="16" mmedcolcount="20" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <units>psi</units>
       <indexcount>20</indexcount>
       <decimalpl>1</decimalpl>
