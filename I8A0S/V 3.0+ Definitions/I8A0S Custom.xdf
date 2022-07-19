@@ -1,4 +1,4 @@
-<!-- Written 07/12/2022 00:11:46 -->
+<!-- Written 07/19/2022 02:12:36 -->
 <XDFFORMAT version="1.70">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -27982,8 +27982,8 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0xDAC" flags="0x0">
-    <title>Pre-Control Full Load Switching</title>
-    <description>Pre-control value for full load switching&#013;&#010;(KL_ATLVST_VLS)</description>
+    <title>Pre-Control Full Load Shifting</title>
+    <description>Pre-control value for full load shifting&#013;&#010;WGDC during shift to keep turbo spinning&#013;&#010;(KL_ATLVST_VLS)</description>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
