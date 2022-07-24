@@ -1,4 +1,4 @@
-**WARNING: As of MHD version 3.0+, tons of things have changed (along with a new updated official XDF). I'm still in the process of going through all the changes however I've finished porting most of my added tables from the legacy XDF to the new one for I8A0S. That XDF is up but I'm going to have to find more time to go through everything and continue updates and polish for version 3.0+.**
+**NOTE: Be careful choosing which files to use. There are changes with MHD 3.0+, and you need to use the correct XDF. If you need files for older versions, go to the "Legacy" folder. I will not be updating any legacy files from here on out.**
 
 # BMW N54 Tuning Resources
 Work-in-progress XDF definitions file for N54 DMEs, and possibly more resources for backyard tuners in the future.
