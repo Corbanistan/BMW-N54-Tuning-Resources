@@ -1,4 +1,4 @@
-<!-- Written 07/22/2022 09:04:42 -->
+<!-- Written 07/24/2022 01:18:44 -->
 <XDFFORMAT version="1.70">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -29255,4 +29255,10 @@
       </MATH>
     </XDFAXIS>
   </XDFTABLE>
+  <XDFPATCH uniqueid="0x5351">
+    <title>N20 Sensor 3-Cell Scaling</title>
+    <description>This patch will automatically apply the &quot;common&quot; 3-cell tmap scaling for the N20 sensor</description>
+    <CATEGORYMEM index="0" category="36" />
+    <XDFPATCHENTRY address="0x7F702" datasize="0xC" patchdata="6600BA01A203BD173B50D578" />
+  </XDFPATCH>
 </XDFFORMAT>
