@@ -9,6 +9,8 @@ As stated, I hope to grow this repository with the help of the community into a 
 
 If anyone has additions, corrections, or other materials they'd like to see here, feel free to submit it.
 
+For Motiv & FlexFuel Firmware, as well as files for non-N54 BMWs, please see https://github.com/dmacpro91/BMW-XDFs.
+
 ***A FAIR WARNING:*** my XDFs are constantly being changed and improved and I origionally never thought that I would be sharing it with the public. Tables contained within may have errors. Not everything has been tested. Do your research before messing with anything on your car. Keep a backup of your stock BIN file. Also, I have been slowly updating table names and descriptions to be accurate and more informative. Not all tables have been updated yet, so again, there may be errors or a lack of description.
 
 **CREDITS**
