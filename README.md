@@ -1,3 +1,5 @@
+**NOTE: My N54 BMW is no longer with me, meaning I won't be working on this repo or N54 tuning anymore unless I buy another. So unfortunately, I'm declaring this repo NO LONGER MAINTAINED. MHD updates or community developments could change the usability of the files in this repo. I had big plans for this repo but the loss of my BMW was sudden and I don't have the time to keep up with N54 developments unless I have one in my garage. Thank you to everyone involved in the N54 tuning community, especially those listed below in the credits. This repo will be kept up here for public use and to help owners who want to get more out of this platform.**
+
 **NOTE: Be careful choosing which files to use. There are changes with MHD 3.0+, and you need to use the correct XDF. If you need files for older versions, go to the "Legacy" folder. I will not be updating any legacy files from here on out.**
 
 # BMW N54 Tuning Resources
